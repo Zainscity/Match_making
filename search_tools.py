@@ -1,4 +1,4 @@
-from ddgs import DDGS  # This imports from pip-installed package
+from duckduckgo_search import DDGS
 from agents import function_tool
 
 @function_tool
