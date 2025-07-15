@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import os
 from agents import AsyncOpenAI, OpenAIChatCompletionsModel, Agent, Runner, function_tool, RunConfig
-from ddgs import DDGS  # ✅ DuckDuckGo search tool
+from duckduckgo_search import DDGS  # ✅ DuckDuckGo search tool
 from twilio.rest import Client
 
 load_dotenv()
