@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from agents import AsyncOpenAI, OpenAIChatCompletionsModel, Agent, Runner, function_tool, RunConfig
-from search_tools import DDGS
+from ddgs import DDGS
 from twilio.rest import Client
 import asyncio
 
